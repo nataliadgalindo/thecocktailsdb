@@ -27,6 +27,7 @@ const SearchForm = () => {
             id="name"
             ref={searchValue}
             onChange={searchCocktail}
+            autocomplete="off"
           />
         </div>
       </form>
